@@ -1,0 +1,62 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#winnerVideo{
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+#winnerVideo > iframe {
+    display: block;
+}
+
+#winnerVideo > button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.hidden{
+    display: none;
+}
+
+.night-filter {
+    filter: invert(100%);
+}
+
+.bg-black {
+    background: black;
+}
+
+
+#revive{
+    position: absolute;
+    background: rgba(20,254,0, 0.5);
+  
+}
+.revive{
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.videoTxt{
+    font-family: sans-serif;
+    font-weight: bolder;
+    background: white;
+    padding: 4%;
+}
